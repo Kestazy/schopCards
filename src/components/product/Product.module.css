@@ -1,0 +1,32 @@
+.products_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    background-color: #dbdbdb;
+}
+
+.oneCategory{
+    margin: 0;
+    padding: 0;
+}
+
+.oneProductCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 440px;
+    width: 250px;
+    padding: 1rem;
+    border: 1px #000000 solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.onePicture{
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    width: 200px;
+    height: 200px;
+}
+
