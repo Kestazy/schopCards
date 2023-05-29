@@ -1,0 +1,27 @@
+.container{
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    background-color: #dbdbdb;
+    gap: 1.5rem;
+}
+
+.buttons{
+    height: 35px;
+    width: 150px;
+    background-color: #090994;
+    color: #fefefe;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+    opacity: 0.8;
+}
+
+:hover.buttons{
+    opacity: 1;
+    cursor: pointer;
+}
+
+:active.buttons{
+    background-color: #000000;
+}
