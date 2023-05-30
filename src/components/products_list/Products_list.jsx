@@ -22,9 +22,10 @@ function Products_list() {
     }, []);
 
     console.log(products);
+    console.log()
   return (
     <div>
-        <Category products={products}/>
+        <Category products={products} />
         <Product products={products} />
     </div>
   )
