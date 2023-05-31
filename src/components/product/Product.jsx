@@ -2,11 +2,11 @@ import React from 'react'
 import styles from './Product.module.css'
 
 function Product(props) {
-    console.log(props.products);
+    console.log(props.filteredCategory);
   return (
     <div className={styles.products_list}>
         {
-            props.products.map((oneProduct, index) => (
+            props.filteredCategory.map((oneProduct, index) => (
                 <div key={index} className={styles.oneProductCard}>
                     <p className={styles.oneCategory}>{oneProduct.category}</p>
                     <img className={styles.onePicture} src={ oneProduct.image } alt={oneProduct.category} />
